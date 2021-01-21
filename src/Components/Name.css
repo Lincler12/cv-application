@@ -1,0 +1,20 @@
+div#name{
+  background-color: white;
+  margin-bottom: 1px;
+}
+div#contact{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  padding-top: 30px;
+  font-size: 14px;
+  margin-bottom: 1px;
+}
+
+input#inputName, input#inputSurname{
+	font-size: 38px;
+	font-family: garamond;
+	font-weight: 700;
+
+}

@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+
+div#wrap-content{
+  width: 35%;
+  min-width: 650px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 60px;
+  display: grid;
+  grid-template-rows: 1fr 2fr 2fr 2fr 2fr;
+  background-color: white;
+}
+
+div#top-wrapper{
+  display:grid;
+  grid-template-columns: 2fr 1fr;
+  align-content: center;
+}
+
+h1{
+  font-family: garamond;
+  font-size: 38px;
+  color: #333333;
+
+}
+h2{
+  font-size: 28px;
+  color: #333333;
+}
+
+.display-none{
+  display:none;
+}
