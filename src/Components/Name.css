@@ -12,9 +12,21 @@ div#contact{
   margin-bottom: 1px;
 }
 
-input#inputName, input#inputSurname{
+input{
 	font-size: 38px;
 	font-family: garamond;
 	font-weight: 700;
+
+}
+
+@media screen and (max-width: 650px){
+  input{
+		width: 90%;
+		font-size: 28px;
+	}
+	div#contact{
+		padding-top: 10px;
+		text-align: left;
+	}
 
 }

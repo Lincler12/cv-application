@@ -22,7 +22,6 @@ class Name extends Component {
     id,
     placeholder,
     maxLength,
-    fontSize,
     div,
     field,
     stateObj,
@@ -43,7 +42,6 @@ class Name extends Component {
           placeholder={placeholder}
           autoFocus
           id={id}
-          style={{ fontSize: fontSize }}
           onChange={onChangeWithFields}
           value={stateObjValue}
           onBlur={toggleHandlerWithFields}
@@ -87,17 +85,7 @@ class Name extends Component {
       });
     }
   }
-  // toggleNameEditState(e) {
-  //   if (e.target.value !== "") {
-  //     this.setState({
-  //       ...this.state,
-  //       name: {
-  //         ...this.state.name,
-  //         edit: !this.state.name.edit,
-  //       },
-  //     });
-  //   }
-  // }
+
 
   handleOnChange(e, field, thisStateObject, thisStateObjectValue) {
     this.setState({
@@ -122,7 +110,6 @@ class Name extends Component {
             "inputName",
             "Enter your name",
             "20",
-            "38",
             false,
             "name",
             this.state.name,
@@ -136,7 +123,6 @@ class Name extends Component {
             "inputSurname",
             "Enter your surname",
             "20",
-            "38",
             false,
             "surname",
             this.state.surname,

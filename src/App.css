@@ -45,7 +45,7 @@ div#wrap-content{
   margin-top: 20px;
   padding: 60px;
   display: grid;
-  grid-template-rows: 1fr 2fr 2fr 2fr 2fr;
+  grid-template-rows: auto auto auto auto auto;
   background-color: white;
 }
 
@@ -68,4 +68,21 @@ h2{
 
 .display-none{
   display:none;
+}
+
+@media screen and (max-width: 650px){
+  div#wrap-content{
+    min-width: 300px;
+    margin: 0px;
+  }
+  div#top-wrapper{
+    display:flex;
+    flex-direction: column;
+  }
+  h1{
+    font-size: 32px;
+  }
+  h2{
+    font-size: 24px;
+  }
 }
